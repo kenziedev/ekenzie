@@ -11,7 +11,7 @@ public class EkenzieApplication {
 
     @GetMapping("/")
     public String Hello(){
-        return "e kenzie page";
+        return "e kenzie page - 로드밸런싱 아님!";
     }
     public static void main(String[] args) {
         SpringApplication.run(EkenzieApplication.class, args);
